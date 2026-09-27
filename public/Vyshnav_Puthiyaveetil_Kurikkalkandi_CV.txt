@@ -1,0 +1,53 @@
+VYSHNAV PUTHIYAVEETIL KURIKKALKANDI
+London, UK | 07349 237233 | vyshnavputhiyaveetil26@gmail.com | LinkedIn: https://www.linkedin.com/in/vyshnavpk26/ | GitHub: https://github.com/vyshnav-analytics
+
+================================================================================
+PROFESSIONAL PROFILE
+================================================================================
+Business Analytics postgraduate (MSc, Merit) with a project-led portfolio in business intelligence, reporting and data analysis. Writes SQL in PostgreSQL to extract and model sales data, builds Power BI dashboards to report on it, and uses Python for exploratory and statistical work. MSc dissertation looked at how explainable AI affects decision-making in financial services. Looking for a UK data or business analyst role that turns data into reporting and insight for commercial decisions.
+
+================================================================================
+CORE TECHNICAL SKILLS
+================================================================================
+• Business Intelligence & Reporting: Power BI (DAX), Dashboard Development, KPI Reporting, Data Modelling, Time-Intelligence Measures, Data Visualisation, Tableau
+• Data & Databases: SQL (PostgreSQL), Window Functions, CTEs, Data Extraction & Transformation, Data Cleaning, Exploratory Data Analysis
+• Analysis & Programming: Python (Pandas, NumPy, Seaborn), Statistical Analysis, Microsoft Excel (Pivot Tables, XLOOKUP)
+• Business: Requirements Gathering, Stakeholder Management, KPI Definition, Business Analysis
+
+================================================================================
+ANALYTICS PROJECTS
+================================================================================
+Retail Sales Performance Analysis
+Tools: SQL (PostgreSQL), Power BI (DAX), Excel | Period: Feb 2026 – Present | Location: London
+Multi-region retail scenario looking at why 8% revenue growth year on year came with a 3.2% fall in net profit.
+• Modelled 54,200 transaction rows from 2023–2025, drawn from Orders, Customers, Products, Returns and Regional Geography tables.
+• Wrote PostgreSQL queries with CTEs and window functions to clean the data, work out net revenue after returns, and calculate regional net-profit margin.
+• Built a 3-page Power BI dashboard with KPI cards, regional profit heatmaps, discount scatter plots and drill-through audit tables, using DAX measures for YTD, YoY and rolling 3-month figures.
+• Reported headline KPIs of £4.2M revenue, £512K net profit, £148 average order value and a 4.1% return rate across four UK regions.
+• Found that discounts above 18% accounted for 64% of profit losses, and that the top 15% of corporate accounts brought in 58% of net profit.
+• Set out three commercial actions (discount caps, courier renegotiation and marketing budget reallocation) worth an estimated £140,000+ in recovered annual margin.
+
+Explainable AI in Financial Decision-Making MSc Dissertation
+Tools: Python, Statistical Analysis, Research Design | Period: Jan 2026 | Location: London
+• Studied how explainable AI (XAI) affects decision-making, comparing algorithmic transparency and managerial trust across financial services.
+• Ran the statistical analysis in Python and wrote up the findings.
+
+Executive Business Performance Dashboard
+Tools: Power BI (DAX), Excel | Period: May 2024 – Jan 2025 | Location: India
+• Designed enterprise KPI dashboards for sales and performance metrics, building the data models and visuals for stakeholder reporting.
+
+Additional Portfolio Projects:
+Customer Behaviour & Segmentation (RFM modelling, SQL and Python); SQL Business Analysis case study (PostgreSQL); Python EDA pipeline (Pandas, Seaborn); Excel scenario modelling (Pivot Tables, XLOOKUP).
+
+================================================================================
+EDUCATION
+================================================================================
+MSc Business Analytics
+University of Greenwich, London, UK | Period: Jan 2025 – Feb 2026 | Location: London
+• Data analysis, business intelligence, data preparation, reporting, dashboard development and business-focused analysis.
+• Dissertation: Evaluating the Impact of Explainable AI (XAI) on Decision-Making Effectiveness in Financial Services: A Cross Industry Comparative Analysis.
+
+BCom - Computer Application
+College of Applied Science, Payyanur, India | Period: Sep 2021 – May 2024 | Location: India
+• Foundation in relational databases, IT systems and business reporting.
+• Research study on work-related stress among private hospital nurses (Kannur District).

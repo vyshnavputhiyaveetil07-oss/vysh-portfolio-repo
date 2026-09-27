@@ -3,11 +3,11 @@ import { MapPin, GraduationCap, Code, ExternalLink, Download, CheckCircle2 } fro
 import { profileData } from '../data/profile';
 
 interface RecruiterBarProps {
-  onNavigate: (sectionId: string) => void;
+  onNavigate?: (sectionId: string) => void;
   isDarkMode: boolean;
 }
 
-export const RecruiterBar: React.FC<RecruiterBarProps> = ({ onNavigate, isDarkMode }) => {
+export const RecruiterBar: React.FC<RecruiterBarProps> = ({ isDarkMode }) => {
   return (
     <div className={`w-full border-y py-4 px-4 sm:px-6 transition-colors duration-300 ${
       isDarkMode 
@@ -66,13 +66,27 @@ export const RecruiterBar: React.FC<RecruiterBarProps> = ({ onNavigate, isDarkMo
 
         {/* Direct Action Buttons */}
         <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
-          <button
-            onClick={() => onNavigate('resume')}
+          <a
+            href="/Vyshnav_Puthiyaveetil_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium border flex items-center gap-1 transition-all cursor-pointer ${
+              isDarkMode 
+                ? 'border-slate-700 hover:bg-slate-800 text-slate-300' 
+                : 'border-slate-300 hover:bg-slate-200 text-slate-700'
+            }`}
+          >
+            <span>View CV</span>
+            <ExternalLink className="w-3 h-3 text-slate-400" />
+          </a>
+          <a
+            href="/Vyshnav_Puthiyaveetil_CV.pdf"
+            download="Vyshnav_Puthiyaveetil_CV.pdf"
             className="px-3.5 py-1.5 rounded-lg text-xs font-medium bg-blue-600 hover:bg-blue-500 text-white flex items-center gap-1.5 transition-all shadow-sm cursor-pointer"
           >
             <Download className="w-3.5 h-3.5" />
             <span>Download CV</span>
-          </button>
+          </a>
           <a
             href={profileData.contact.linkedin}
             target="_blank"

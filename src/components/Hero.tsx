@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, ArrowRight, Download, Sparkles } from 'lucide-react';
+import { MapPin, ArrowRight, Download, Sparkles, FileText } from 'lucide-react';
 import { profileData } from '../data/profile';
 import { Hero3DCanvas } from './Hero3DCanvas';
 
@@ -102,8 +102,23 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, isDarkMode }) => {
                 <ArrowRight className="w-4 h-4" />
               </button>
 
-              <button
-                onClick={() => onNavigate('resume')}
+              <a
+                href="/Vyshnav_Puthiyaveetil_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`px-5 py-3.5 rounded-xl font-semibold text-sm border flex items-center gap-2 transition-all cursor-pointer ${
+                  isDarkMode
+                    ? 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-200'
+                    : 'bg-white hover:bg-slate-100 border-slate-300 text-slate-800 shadow-sm'
+                }`}
+              >
+                <FileText className="w-4 h-4 text-blue-500" />
+                <span>View CV</span>
+              </a>
+
+              <a
+                href="/Vyshnav_Puthiyaveetil_CV.pdf"
+                download="Vyshnav_Puthiyaveetil_CV.pdf"
                 className={`px-5 py-3.5 rounded-xl font-semibold text-sm border flex items-center gap-2 transition-all cursor-pointer ${
                   isDarkMode
                     ? 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-200'
@@ -112,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, isDarkMode }) => {
               >
                 <Download className="w-4 h-4 text-blue-500" />
                 <span>Download CV</span>
-              </button>
+              </a>
 
               <button
                 onClick={() => onNavigate('contact')}

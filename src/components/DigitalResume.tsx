@@ -23,8 +23,8 @@ export const DigitalResume: React.FC = () => {
 
   const handleDownloadCV = () => {
     const a = document.createElement('a');
-    a.href = '/Vyshnav_Puthiyaveetil_Kurikkalkandi_CV.txt';
-    a.download = 'Vyshnav_Puthiyaveetil_Kurikkalkandi_Analytics_CV.txt';
+    a.href = '/Vyshnav_Puthiyaveetil_CV.pdf';
+    a.download = 'Vyshnav_Puthiyaveetil_CV.pdf';
     a.click();
   };
 
@@ -70,9 +70,18 @@ export const DigitalResume: React.FC = () => {
         </div>
 
         <div className="flex items-center space-x-2">
+          <a
+            href="/Vyshnav_Puthiyaveetil_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 flex items-center gap-1.5 transition-all cursor-pointer shadow-xs"
+          >
+            <FileText className="w-3.5 h-3.5 text-blue-600" />
+            <span>View CV</span>
+          </a>
           <button
             onClick={handleDownloadCV}
-            className="px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-blue-700 to-indigo-700 hover:from-blue-600 hover:to-indigo-600 text-white flex items-center gap-1.5 shadow-md shadow-blue-700/20 transition-all cursor-pointer"
+            className="px-3.5 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-blue-700 to-indigo-700 hover:from-blue-600 hover:to-indigo-600 text-white flex items-center gap-1.5 shadow-md shadow-blue-700/20 transition-all cursor-pointer"
           >
             <Download className="w-3.5 h-3.5" />
             <span>Download CV</span>
